@@ -17,11 +17,11 @@ const images = [
 /* Declaring the alternative text for each image file */
 
 const altText = {
-    "pic1.jpg" : "Closeup of a human eye",
-    "pic2.jpg" : "A pale brown sand dune",
-    "pic3.jpg" : "Purple and white flowers",
-    "pic4.jpg" : "Wall with Egyptian imagery",
-    "pic5.jpg" : "Light brown butterfly on bright green leaf"
+    "pic1.jpg" : "A pale-yellow and white cockatiel with orange cheeks",
+    "pic2.jpg" : "A black and cyan bird performing a mating dance, wings outspread",
+    "pic3.jpg" : "A red, yellow, and blue macaw preening",
+    "pic4.jpg" : "A secretary bird with a white head, orange beak area, and a crest of black feathers",
+    "pic5.jpg" : "A white and light-brown owl, possibly a barn owl"
 }
 
 
