@@ -27,6 +27,8 @@ const altText = {
 
 /* Looping through images */
 
+
+
 for (const image of images) {
 
 const newImage = document.createElement('img');
