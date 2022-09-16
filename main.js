@@ -30,7 +30,7 @@ const altText = {
 for (const image of images) {
 
 const newImage = document.createElement('img');
-newImage.setAttribute('src', `${images}`);
+newImage.setAttribute('src', `images/${image}`);
 newImage.setAttribute('alt', altText[image]);
 thumbBar.appendChild(newImage);
 
