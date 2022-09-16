@@ -16,7 +16,7 @@ const images = [
 
 /* Declaring the alternative text for each image file */
 
-let altText = {
+const altText = {
     "pic1.jpg" : "Closeup of a human eye",
     "pic2.jpg" : "A pale brown sand dune",
     "pic3.jpg" : "Purple and white flowers",
