@@ -30,7 +30,12 @@ let altText = {
 for (const image of images)
 const newImage = document.createElement('img');
 newImage.setAttribute('src', 'images/${img}');
-newImage.setAttribute('alt', xxx);
+newImage.setAttribute('alt', 'altText[image]');
 thumbBar.appendChild(newImage);
+
+thumbBar.addEventListener('click', e=> {
+    displayedImage.src = e.target.src;
+    displayedImage.alt = e.target.alt;
+})
 
 /* Wiring up the Darken/Lighten button */
